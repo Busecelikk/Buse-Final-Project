@@ -1,0 +1,53 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+             x:Class="FancyUnitConverter.MainPage">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#FFD194" Offset="0.1" />
+            <GradientStop Color="#BD5F9D" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TitleStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="Purple"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="30"/>
+            </Style>
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="Keyboard" Value="Numeric"/>
+            </Style>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="LightBlue"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="WidthRequest" Value="200"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout Spacing="25" Padding="30">
+        <Label Text="Fancy Unit Converter" Style="{StaticResource TitleStyle}" HorizontalOptions="Center"/>
+
+        <Picker x:Name="unitTypePicker" Title="Select unit type">
+            <Picker.Items>
+                <x:String>Length</x:String>
+                <x:String>Temperature</x:String>
+                <x:String>Weight</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Entry x:Name="inputEntry" Placeholder="Enter value" Style="{StaticResource EntryStyle}"/>
+        <Picker x:Name="fromUnitPicker" Title="From unit"/>
+        <Picker x:Name="toUnitPicker" Title="To unit"/>
+
+        <Button Text="Convert" Style="{StaticResource ButtonStyle}" Clicked="OnConvertClicked"/>
+
+        <Label x:Name="resultLabel" FontSize="20" HorizontalOptions="Center" TextColor="Green"/>
+    </VerticalStackLayout>
+
+</ContentPage>  

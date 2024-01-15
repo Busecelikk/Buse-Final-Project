@@ -1,0 +1,1 @@
+C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\FancyUnitConverter.csproj;x64

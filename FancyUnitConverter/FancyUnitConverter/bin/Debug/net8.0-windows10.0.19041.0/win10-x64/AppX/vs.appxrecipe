@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-13T21:48:14.524</Modified>
+      <Modified>2024-01-16T10:59:57.102</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-13T21:48:14.133</Modified>
+      <Modified>2024-01-15T19:54:53.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FancyUnitConverter.runtimeconfig.json">
       <PackagePath>FancyUnitConverter.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FancyUnitConverter.dll">
       <PackagePath>FancyUnitConverter.dll</PackagePath>
-      <Modified>2024-01-13T21:48:11.257</Modified>
+      <Modified>2024-01-15T19:54:50.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FancyUnitConverter.exe</PackagePath>
-      <Modified>2024-01-13T21:48:11.475</Modified>
+      <Modified>2024-01-15T19:54:51.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FancyUnitConverter.deps.json">
       <PackagePath>FancyUnitConverter.deps.json</PackagePath>
-      <Modified>2024-01-13T21:48:13.617</Modified>
+      <Modified>2024-01-15T19:54:53.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

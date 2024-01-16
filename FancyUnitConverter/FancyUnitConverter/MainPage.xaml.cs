@@ -89,5 +89,9 @@ namespace FancyUnitConverter
                 resultLabel.Text = "Please enter a valid number.";
             }
         }
+        private async void OnDescriptionsClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DescriptionsPage());
+        }
     }
 }

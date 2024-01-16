@@ -1,0 +1,23 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+             x:Class="FancyUnitConverter.DescriptionsPage"  
+             Title="Unit Descriptions">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="10">
+            <Label Text="Length Units:" FontAttributes="Bold" FontSize="18"/>
+            <Label Text="Meter: The base unit of length in the International System of Units (SI)." />
+            <Label Text="Feet: A unit of length in the imperial and US customary systems of measurement." />
+
+            <Label Text="Temperature Units:" FontAttributes="Bold" FontSize="18"/>
+            <Label Text="Celsius: A scale and unit of measurement for temperature where 0 °C is the freezing point of water." />
+            <Label Text="Fahrenheit: A temperature scale where the freezing point of water is 32 degrees and the boiling point is 212 degrees." />
+
+            <Label Text="Weight Units:" FontAttributes="Bold" FontSize="18"/>
+            <Label Text="Kilogram: The base unit of mass in the International System of Units (SI)." />
+            <Label Text="Pound: A unit of weight commonly used in the United States and the British commonwealths." />
+
+            <!-- Add more descriptions as needed -->
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>  

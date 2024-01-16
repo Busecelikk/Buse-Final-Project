@@ -31,7 +31,10 @@
     </ContentPage.Resources>
 
     <VerticalStackLayout Spacing="25" Padding="30">
-        <Label Text="Fancy Unit Converter" Style="{StaticResource TitleStyle}" HorizontalOptions="Center"/>
+        <HorizontalStackLayout>
+            <Button Text="Descriptions" Margin="0,0,10,0" Clicked="OnDescriptionsClicked"/>
+            <Label Text="Fancy Unit Converter" Style="{StaticResource TitleStyle}" HorizontalOptions="CenterAndExpand"/>
+        </HorizontalStackLayout>
 
         <Picker x:Name="unitTypePicker" Title="Select unit type">
             <Picker.Items>
@@ -50,4 +53,4 @@
         <Label x:Name="resultLabel" FontSize="20" HorizontalOptions="Center" TextColor="Green"/>
     </VerticalStackLayout>
 
-</ContentPage>  
+</ContentPage> 

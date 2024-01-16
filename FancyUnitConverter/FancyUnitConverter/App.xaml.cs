@@ -1,4 +1,6 @@
-﻿namespace FancyUnitConverter
+﻿using Microsoft.Maui.Controls;
+
+namespace FancyUnitConverter
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }

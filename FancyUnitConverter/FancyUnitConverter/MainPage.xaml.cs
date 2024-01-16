@@ -15,9 +15,9 @@ namespace FancyUnitConverter
 
             _unitTypes = new Dictionary<string, string[]>
             {
-                { "Length", new [] { "Meter", "Feet" } }, // You can add more units here  
-                { "Temperature", new [] { "Celsius", "Fahrenheit" } }, // You can add more units here  
-                { "Weight", new [] { "Kilogram", "Pound" } }, // You can add more units here  
+                { "Length", new [] { "Meter", "Feet" } }, // başka unitler de ekleyebilirim.  
+                { "Temperature", new [] { "Celsius", "Fahrenheit" } },   
+                { "Weight", new [] { "Kilogram", "Pound" } },  
             };
 
             _conversions = new Dictionary<(string, string), Func<double, double>>
@@ -28,7 +28,7 @@ namespace FancyUnitConverter
                 { ("Fahrenheit", "Celsius"), fahrenheit => (fahrenheit - 32) * 5 / 9 },
                 { ("Kilogram", "Pound"), kilogram => kilogram * 2.20462 },
                 { ("Pound", "Kilogram"), pound => pound / 2.20462 },  
-                // ... other conversions  
+                // işlemler 
             };
 
             unitTypePicker.SelectedIndexChanged += OnUnitTypeSelected;
@@ -56,7 +56,7 @@ namespace FancyUnitConverter
 
         private void OnUnitSelected(object sender, EventArgs e)
         {
-            // No implementation needed here for now  
+            // tekrar bak.  
         }
 
         private void OnConvertClicked(object sender, EventArgs e)

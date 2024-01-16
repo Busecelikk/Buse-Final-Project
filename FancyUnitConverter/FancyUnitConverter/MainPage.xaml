@@ -33,7 +33,7 @@
     <VerticalStackLayout Spacing="25" Padding="30">
         <HorizontalStackLayout>
             <Button Text="Descriptions" Margin="0,0,10,0" Clicked="OnDescriptionsClicked"/>
-            <Label Text="Fancy Unit Converter" Style="{StaticResource TitleStyle}" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Unit Converter" Style="{StaticResource TitleStyle}" HorizontalOptions="CenterAndExpand"/>
         </HorizontalStackLayout>
 
         <Picker x:Name="unitTypePicker" Title="Select unit type">

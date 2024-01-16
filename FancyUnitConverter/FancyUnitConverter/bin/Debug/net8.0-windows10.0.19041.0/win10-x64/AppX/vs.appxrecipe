@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-16T10:59:57.102</Modified>
+      <Modified>2024-01-16T15:35:35.377</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FancyUnitConverter.dll">
       <PackagePath>FancyUnitConverter.dll</PackagePath>
-      <Modified>2024-01-15T19:54:50.932</Modified>
+      <Modified>2024-01-16T12:48:06.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FancyUnitConverter.exe</PackagePath>
-      <Modified>2024-01-15T19:54:51.192</Modified>
+      <Modified>2024-01-16T12:48:06.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BUSE CELIK\source\repos\FancyUnitConverter\FancyUnitConverter\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

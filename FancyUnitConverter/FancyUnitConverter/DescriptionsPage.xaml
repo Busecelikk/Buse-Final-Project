@@ -4,6 +4,13 @@
              Title="Unit Descriptions">
 
     <ScrollView>
+        <ScrollView.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#FFDAB9" Offset="0.0"/> <!-- orange -->
+                <GradientStop Color="#FFB6C1" Offset="1.0"/> <!-- pink -->
+            </LinearGradientBrush>
+        </ScrollView.Background>
+
         <VerticalStackLayout Padding="30" Spacing="10">
             <Label Text="Length Units:" FontAttributes="Bold" FontSize="18"/>
             <Label Text="Meter: The base unit of length in the International System of Units (SI)." />
@@ -17,7 +24,7 @@
             <Label Text="Kilogram: The base unit of mass in the International System of Units (SI)." />
             <Label Text="Pound: A unit of weight commonly used in the United States and the British commonwealths." />
 
-            <!-- Add more descriptions as needed -->
+            <!-- daha ayrıntılı yazabilirim. Tekrar bak. -->
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>  
